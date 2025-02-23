@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>いろいろ学園</title>
+  </head>
+</head>
+<style>
+body {
+            margin: 0;
+            overflow: hidden;
+        }
+        .game-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            background: url('背景.png') no-repeat center center/cover;
+        }
+        .character {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: url('キャラクター.png') no-repeat center center/contain;
+        }
+        .ui-menu {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+        .ui-button {
+            position: relative;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            padding: 10px;
+            background: url('ガチャ.png') no-repeat center center/contain;
+        }
+.ui2-button {
+            position: relative;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            padding: 10px;
+            background: url('メンバー.png') no-repeat center center/contain;
+        }
+.ui3-button {
+            position: relative;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            padding: 10px;
+            background: url('ストーリー.png') no-repeat center center/contain;
+        }
+.ui4-button {
+            position: relative;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            padding: 10px;
+            background: url('マイページ.png') no-repeat center center/contain;
+}
+.ui5-button {
+            position: relative;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            padding: 10px;
+            background: url('ゲーム.png') no-repeat center center/contain;
+}
+</style>
+<body>
+    <div class="game-container">
+        <div class="character" style="left: 50px; top: 300px;"></div>
+        <div class="character" style="left: 200px; top: 300px;"></div>
+        <div class="character" style="left: 350px; top: 300px;"></div>
+        
+        <div class="ui-menu">
+            <a href="ガチャURL" div class="ui-button">ガチャ</a>
+            <a href="メンバーURL" div class="ui2-button">メンバー</a>
+            <a href="ストーリーURL" div class="ui3-button">ストーリー</a>
+            <a href="mepeziURL" div class="ui4-button">マイページ</a>
+            <a href="ゲームURL" div class="ui5-button">ゲームGO</a>
+        </div>
+    </div>
+</body>
+</html>
